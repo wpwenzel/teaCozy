@@ -37,7 +37,7 @@ a {
   text-decoration: underline;
 }
 
-#container {
+.container {
   position: relative;
   top: 69px;
   width: 100%;
@@ -49,9 +49,14 @@ a {
   flex-direction: column;
 }
 
-#mission .content {
+.content.mission {
   background-image: url("../../resources/images/img-mission-background.jpg");
   height: 700px;
+}
+
+.content.mission
+
+.content.totm {
 }
 
 .tea img {
